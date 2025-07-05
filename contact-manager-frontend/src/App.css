@@ -1,0 +1,250 @@
+
+/* Card hover effects */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Table hover effects */
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}
+
+/* Custom button styles */
+.btn {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Form styling */
+.form-control {
+  border-radius: 8px;
+  border: 2px solid #e9ecef;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Responsive design */
+/* Large tablets and small desktops */
+@media (max-width: 992px) {
+  .display-4 {
+    font-size: 2.8rem;
+  }
+  
+  /* .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.2rem;
+  }
+  
+  .table-responsive {
+    font-size: 0.875rem;
+  }
+  
+  .avatar-circle {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.1rem !important;
+  }
+  
+  .card-header h4 {
+    font-size: 1.1rem;
+  }
+  
+  .lead {
+    font-size: 1rem;
+  }
+  
+  .py-4 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 576px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .display-4 {
+    font-size: 1.8rem;
+  }
+  
+  .btn-lg {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.4rem;
+    font-size: 0.8rem;
+  }
+  
+  .avatar-circle {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+  
+  .card-header h4 {
+    font-size: 1rem;
+  }
+  
+  .navbar {
+    padding: 0.5rem 0;
+  }
+  
+  .navbar-brand {
+    font-size: 1rem !important;
+  }
+  
+  .py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+  
+  .mt-5 {
+    margin-top: 2rem !important;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .g-4 > * {
+    padding: 0.75rem;
+  }
+}
+
+/* Extra small mobile phones */
+@media (max-width: 400px) {
+  .display-4 {
+    font-size: 1.5rem;
+  }
+  
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.3rem;
+    font-size: 0.75rem;
+  }
+  
+  .btn-lg {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .card-header h4 {
+    font-size: 0.9rem;
+  }
+  
+  .avatar-circle {
+    width: 25px;
+    height: 25px;
+    font-size: 10px;
+  }
+  
+  .py-4 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+}
+
+/* Form responsive improvements */
+@media (max-width: 768px) {
+  /* Stack form fields vertically on smaller screens */
+  .row .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 1rem;
+  }
+  
+  .card-body {
+    padding: 0.75rem;
+  }
+  
+  .form-label {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .form-control {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Table responsiveness improvements */
+@media (max-width: 576px) {
+  .table-responsive {
+    border: none;
+  }
+  
+  /* Hide less important columns on very small screens */
+  .table th:last-child,
+  .table td:last-child {
+    display: none;
+  }
+  
+  /* Adjust name column to take more space */
+  .table th:first-child,
+  .table td:first-child {
+    width: 40%;
+  }
+}
+
+/* Loading animation */
+.spinner-border {
+  animation: spinner-border 0.75s linear infinite;
+}
+
+/* Toast customization */
+.Toastify__toast {
+  border-radius: 8px;
+}
+
+/* Background gradient */
+.bg-light {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%) !important;
+}
