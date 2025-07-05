@@ -44,7 +44,7 @@ This is a basic contact manager application built using Laravel for the backend 
 ## Features
 - Add new contacts with name, email, and phone number.
 - List all contacts with search functionality.
-- Responsive design for mobile and desktop.
+- could not finish up the responsiveness 
 - Toast notifications for user feedback.
 
 ## Development 
