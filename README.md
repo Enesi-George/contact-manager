@@ -48,6 +48,6 @@ This is a basic contact manager application built using Laravel for the backend 
 - Toast notifications for user feedback.
 
 ## Development 
-- Backend API is built using Laravel to handle authentication.
+- Backend API is built using Laravel.
 - Frontend is styled with Bootstrap and uses Axios for API requests.
 
